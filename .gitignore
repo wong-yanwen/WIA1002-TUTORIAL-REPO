@@ -1,1 +1,2 @@
-/TUTORIAL 1/T01/target/
+target/
+*.class
