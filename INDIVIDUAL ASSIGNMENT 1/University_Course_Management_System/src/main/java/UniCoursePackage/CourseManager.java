@@ -23,7 +23,7 @@ public class CourseManager <T extends Course> {
      }
     /**
      * Removes a course by its unique code. 
-     * @param courseCode
+     * @param courseCode couse code for the course that is intended to be removed
      * @return true if course with the code is removed,false if course with code not found.
      */
     public boolean removeCourse(String courseCode){
