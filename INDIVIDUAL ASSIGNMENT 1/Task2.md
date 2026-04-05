@@ -88,7 +88,7 @@
     <br>d) `LabCourse` does not have a `calculateTotalWorkload()` method. 
 
     ```
-    ANSWER: b) `LabCourse` uses a `double` for hours, while `LectureCourse` uses an `int`.
+    ANSWER: a) `LabCourse` uses hours per week * sessions, while `LectureCourse` uses hours per week. 
     ```
     
 7. If we add a new type of course, `OnlineCourse`, which has `videoHours` and `quizCount` as attributes, what method from the `Course` interface would need to be implemented in a unique way for this new class? 
