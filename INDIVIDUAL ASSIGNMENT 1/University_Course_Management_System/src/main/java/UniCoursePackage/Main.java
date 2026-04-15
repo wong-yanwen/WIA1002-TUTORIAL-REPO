@@ -17,7 +17,8 @@ public class Main {
         LectureCourse lec2 = new LectureCourse("CS102", "OOP", "Prof. Lee", 4); 
         LabCourse lab1 = new LabCourse("CS201", "Data Structures Lab", "Prof. Jones", 2.5, 3); 
         LabCourse lab2 = new LabCourse("CS202", "Algorithms Lab", "Dr. Brown", 2.0, 1); 
-        Course[] courses = {lec1,lec2,lab1,lab2};
+         LectureCourse lec3 = new LectureCourse("CS156", "Intro to Programming 2", "Dr. Kang", 1); 
+        Course[] courses = {lec1,lec2,lab1,lab2,lec3};
         //2.  Create a `CourseManager` instance. 
         CourseManager manager = new CourseManager ();
         //3.  Add all the created courses to the manager. 
